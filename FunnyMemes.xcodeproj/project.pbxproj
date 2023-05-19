@@ -18,6 +18,11 @@
 		76F76FD22A17684D0077BD92 /* RandomImageButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F76FD12A17684D0077BD92 /* RandomImageButton.swift */; };
 		76F76FD52A1769290077BD92 /* AddTextButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F76FD42A1769290077BD92 /* AddTextButton.swift */; };
 		76F76FE22A176B610077BD92 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F76FE12A176B610077BD92 /* Constant.swift */; };
+		76F76FE52A1786DE0077BD92 /* Finlandica-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 76F76FE42A1772B90077BD92 /* Finlandica-Bold.ttf */; };
+		76F76FEF2A1787540077BD92 /* Finlandica-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 76F76FE72A1787540077BD92 /* Finlandica-Medium.ttf */; };
+		76F76FF02A1787540077BD92 /* Finlandica-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 76F76FE82A1787540077BD92 /* Finlandica-Regular.ttf */; };
+		76F76FF42A1787540077BD92 /* Finlandica-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 76F76FEC2A1787540077BD92 /* Finlandica-SemiBold.ttf */; };
+		76F76FF52A1787540077BD92 /* Finlandica-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 76F76FED2A1787540077BD92 /* Finlandica-Italic.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +40,10 @@
 		76F76FE12A176B610077BD92 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		76F76FE32A176BCA0077BD92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		76F76FE42A1772B90077BD92 /* Finlandica-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Finlandica-Bold.ttf"; sourceTree = "<group>"; };
+		76F76FE72A1787540077BD92 /* Finlandica-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Finlandica-Medium.ttf"; sourceTree = "<group>"; };
+		76F76FE82A1787540077BD92 /* Finlandica-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Finlandica-Regular.ttf"; sourceTree = "<group>"; };
+		76F76FEC2A1787540077BD92 /* Finlandica-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Finlandica-SemiBold.ttf"; sourceTree = "<group>"; };
+		76F76FED2A1787540077BD92 /* Finlandica-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Finlandica-Italic.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,7 +76,6 @@
 		76F76FB62A164E410077BD92 /* FunnyMemes */ = {
 			isa = PBXGroup;
 			children = (
-				76F76FE32A176BCA0077BD92 /* Info.plist */,
 				76F76FCC2A16516A0077BD92 /* Model */,
 				76F76FCE2A16518D0077BD92 /* View */,
 				76F76FCD2A1651730077BD92 /* ViewModel */,
@@ -77,6 +85,7 @@
 				76F76FBD2A164E440077BD92 /* Preview Content */,
 				76F76FE02A176B530077BD92 /* Constant */,
 				76F76FDF2A176B0C0077BD92 /* Fonts */,
+				76F76FE32A176BCA0077BD92 /* Info.plist */,
 			);
 			path = FunnyMemes;
 			sourceTree = "<group>";
@@ -119,6 +128,10 @@
 		76F76FDF2A176B0C0077BD92 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				76F76FED2A1787540077BD92 /* Finlandica-Italic.ttf */,
+				76F76FE72A1787540077BD92 /* Finlandica-Medium.ttf */,
+				76F76FE82A1787540077BD92 /* Finlandica-Regular.ttf */,
+				76F76FEC2A1787540077BD92 /* Finlandica-SemiBold.ttf */,
 				76F76FE42A1772B90077BD92 /* Finlandica-Bold.ttf */,
 			);
 			path = Fonts;
@@ -190,8 +203,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76F76FF42A1787540077BD92 /* Finlandica-SemiBold.ttf in Resources */,
+				76F76FF52A1787540077BD92 /* Finlandica-Italic.ttf in Resources */,
+				76F76FEF2A1787540077BD92 /* Finlandica-Medium.ttf in Resources */,
 				76F76FBF2A164E440077BD92 /* Preview Assets.xcassets in Resources */,
+				76F76FF02A1787540077BD92 /* Finlandica-Regular.ttf in Resources */,
 				76F76FBC2A164E440077BD92 /* Assets.xcassets in Resources */,
+				76F76FE52A1786DE0077BD92 /* Finlandica-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

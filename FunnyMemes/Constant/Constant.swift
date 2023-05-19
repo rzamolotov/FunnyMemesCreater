@@ -16,12 +16,11 @@ let screenHeight = UIScreen.main.bounds.height
 
 //Fonts
 
-let fontThin = "SF-Pro-Rounded-Thin"
-let fontUltrelight = "SF-Pro-Rounded-Ultralight"
-let fontLight = "SF-Pro-Rounded-Light"
-let fontRegular = "SF-Pro-Rounded-Regular"
-let fontMedium = "SF-Pro-Rounded-Medium"
-let fontHeavy = "SF-Pro-Rounded-Heavy.otf"
+let fontItalic = "Finlandica-Italic"
+let fontRegular = "Finlandica-Regular"
+let fontMedium = "Finlandica-Medium"
+let fontBold = "Finlandica-Bold"
+let fontSemiBold = "Finlandica-SemiBold"
 
 //Font Size
 

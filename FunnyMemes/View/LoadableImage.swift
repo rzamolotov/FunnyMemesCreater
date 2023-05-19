@@ -27,13 +27,14 @@ struct LoadableImage: View {
                         .scaledToFit()
                     VStack{
                         Text("Картинка не загрузилась?")
-                            .font(.custom("Finlandica-Bold.ttf", size: fontSizeExtraLarge))
+                            .font(.custom(fontBold, size: fontSizeExtraLarge))
                             .foregroundColor(.white)
                         Spacer()
                         Text("попробуйте еще раз")
-                            .font(.custom("Finlandica-Bold", size: fontSizeExtraLarge))
+                            .font(.custom(fontBold, size: fontSizeExtraLarge))
                             .foregroundColor(.white)
                     }
+                    .padding([.bottom, .top])
                 }
                 .frame(width: screenWidth, height: screenWidth)
                 .padding()

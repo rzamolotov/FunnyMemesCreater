@@ -5,6 +5,10 @@
 	<key>UIAppFonts</key>
 	<array>
 		<string>Finlandica-Bold.ttf</string>
+		<string>Finlandica-Italic.ttf</string>
+		<string>Finlandica-Medium.ttf</string>
+		<string>Finlandica-Regular.ttf</string>
+		<string>Finlandica-SemiBold.ttf</string>
 	</array>
 </dict>
 </plist>
